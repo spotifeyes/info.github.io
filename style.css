@@ -1,0 +1,96 @@
+.container { display: inline-block; }
+
+body {
+    background-color: black;
+  }
+
+
+
+
+
+
+
+  
+.text {
+    font-size: 2em;
+    letter-spacing: 3px;
+    color: #4EF612;
+    font-family: monospace;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s forwards,
+        cursor .4s step-end infinite alternate;
+}
+
+
+
+.text2 {
+    font-size: 2em;
+    letter-spacing: 3px;
+    color: #4EF612;
+    font-family: monospace;
+    width: 100%;
+    white-space: nowrap;
+    overflow: visible;
+    animation:
+        text2-animation 2.7s,
+        cursor .4s step-end infinite alternate;
+}
+
+
+
+
+
+
+
+.text3 {
+    font-size: 2em;
+    letter-spacing: 3px;
+    color: #4EF612;
+    font-family: monospace;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: text3-animation 3.8s;
+    visibility: visible;
+}
+
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+    }
+
+
+@keyframes typing2 {
+    from { visibility: hidden; width: 0 }
+    to { visibility: visible; width: 100% }
+}    
+
+@keyframes cursor {
+    50% { border-color: transparent;}
+}
+
+
+@keyframes text3-animation {
+    0% {
+      visibility: hidden;
+    }
+    100% {
+      visibility: hidden;
+    }
+  }
+
+
+  @keyframes text2-animation {
+    0% {
+        visibility: hidden;
+      }
+      100% {
+        visibility: hidden;
+      }
+    }
+  
