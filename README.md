@@ -1,1 +1,1 @@
-# timjursconsole.github.io for personnel use.Have a look!
+# http://itstimur.space/ is for personnel uses.Have a look at it!
