@@ -1,1 +1,1 @@
-# http://itstimur.space/ is for personnel uses.Have a look at it!
+# http://itstimur.space/ is for personal uses.Have a look at it!
